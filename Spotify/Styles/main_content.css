@@ -1,0 +1,24 @@
+.main_content{
+    /* div que agrupa a parada toda principal  */
+    display: flex;
+    
+} 
+
+.grids{
+    /* são os grids ne */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-fundo);
+    width: 80%;
+}
+
+.main_content .playlists_grid{
+    /* as imagens que compõe o grid */
+    height: 180px;
+    width: 180px;
+   
+}
+
